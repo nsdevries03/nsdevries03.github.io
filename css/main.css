@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 500;
-    background-color: lightgray;
+    background-color: #000025;
     text-align: center;
     color: darkgreen;
     display: block;
 }
 
 header {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 3;
     text-align: left;
     background-color: #3db031;
 }
@@ -48,4 +48,25 @@ a:hover {
 
 .grid-container {
     display: grid;
+}
+
+.nathan1 {
+    width: 50vw;
+    height: fit-content;
+    grid-row: 2 / span 2;
+}
+
+h1 {
+    color: #3db031;
+    padding: 50px 50px 0px 0px;
+    margin: auto;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 2;
+}
+
+.home-p {
+    color: lightgray;
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 2;
+    padding: 50px 50px 50px 50px;
 }
