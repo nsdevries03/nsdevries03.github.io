@@ -1,3 +1,51 @@
-h1 {
-    color: green;
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    background-color: lightgray;
+    text-align: center;
+    color: darkgreen;
+    display: block;
+}
+
+header {
+    grid-column: 1 / span 6;
+    text-align: left;
+    background-color: #3db031;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: .6em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #004800;
+}
+
+.name {
+    font-weight: 750;
+}
+
+.navitem {
+    float: right;
+}
+
+.grid-container {
+    display: grid;
 }
