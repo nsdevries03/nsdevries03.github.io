@@ -49,27 +49,3 @@ a:hover {
 .grid-container {
     display: grid;
 }
-
-.nathan-1 {
-    width: 50vw;
-    height: fit-content;
-    grid-row: 2 / span 2;
-    border-radius: 0px 0px 30px;
-}
-
-h1 {
-    color: #3db031;
-    padding: 30px;
-    margin: auto;
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 2;
-    background-color: lightgray;
-    border-radius: 30px;
-}
-
-.home-p {
-    color: lightgray;
-    grid-row: 3 / span 1;
-    grid-column: 2 / span 2;
-    padding: 50px 50px 50px 50px;
-}
