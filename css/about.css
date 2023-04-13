@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
     text-align: left;
     background-color: #3db031;
 }
@@ -48,4 +48,23 @@ a:hover {
 
 .grid-container {
     display: grid;
+}
+
+h1 {
+    grid-column: 1 / span 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: relative;
+    text-align: center;
+}
+
+.about-1 {
+    width: 100vw;
+    height: fit-content;
+    opacity: 50%;
 }
