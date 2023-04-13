@@ -56,6 +56,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #3db031;
 }
 
 .title {
@@ -67,4 +68,13 @@ h1 {
     width: 100vw;
     height: fit-content;
     opacity: 50%;
+}
+
+.body {
+    background-color: lightgray;
+    border-radius: 50px;
+    grid-column: 1 / span 4;
+    margin: 100px;
+    padding: 20px;
+    grid-row: 3;
 }
