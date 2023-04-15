@@ -49,3 +49,9 @@ a:hover {
 .grid-container {
     display: grid;
 }
+
+img {
+    width: 100vw;
+    height: fit-content;
+    grid-column: 1;
+}
