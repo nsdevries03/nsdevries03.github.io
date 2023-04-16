@@ -81,3 +81,9 @@ input {
 h1 {
     color: #3db031;
 }
+
+.submit {
+    grid-column: 1 / span 3;
+    padding: 100px 100px 50px;
+    margin: auto;
+}
